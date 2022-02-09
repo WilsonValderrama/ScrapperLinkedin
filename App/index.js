@@ -15,9 +15,9 @@ const LINKEDIN_LOGIN_URL = 'https://www.linkedin.com/uas/login?session_redirect=
         await page.goto(LINKEDIN_LOGIN_URL, { waitUntil: 'domcontentloaded' })
         
         await page.click(EMAIL_SELECTOR)
-        await page.keyboard.type('wilson.valderrama10@gmail.com');  //Ingresar Perfil de linkedin
+        await page.keyboard.type('');  //Ingresar Perfil de linkedin
         await page.click(PASSWORD_SELECTOR);
-        await page.keyboard.type('Lue1015427994');  //Ingresar Password linkedin
+        await page.keyboard.type('');  //Ingresar Password linkedin
         await page.click(submitButton);
         await page.waitForNavigation();
 
